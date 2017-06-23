@@ -5,7 +5,7 @@
 with open("iwashere.txt","w") as f:
     f.write("custom script hello world")
 
-with open("C:\\Users\\shoetest\\Desktop\\iwashere2.txt","w") as f:
+with open("C:\\Users\\shoetemplate\\Desktop\\iwashere2.txt","w") as f:
     f.write("custom script hello world")
 
 
