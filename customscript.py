@@ -1,17 +1,11 @@
 
 
-
-
 with open("iwashere.txt","w") as f:
     f.write("custom script hello world")
 
-with open("C:\\Users\\shoetemplate\\Desktop\\iwashere2.txt","w") as f:
-    f.write("custom script hello world")
+with open("C:\\Users\\Administrator\\AppData\\Local\\SoleSlayer\\testfile","w") as f:
+    f.write("testfile")
 
 
 import os
-try:
-    os.system('Start "SoleSlayer" "C:\\Program Files (x86)\\SoleSlayer"')
-except:
-    pass
-
+os.system('Start "C:\\Program Files (x86)\\SoleSlayer\\SoleSlayer"')
