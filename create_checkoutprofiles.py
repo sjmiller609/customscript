@@ -185,3 +185,4 @@ while True:
 with open("C:\\start_slayer.py","w") as f:
     f.write(data)
 
+exit(0)
