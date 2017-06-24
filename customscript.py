@@ -86,14 +86,14 @@ def open_slayer(activation_key):
     print("opening sole slayer")
     ssfilename = "C:\\\\Program Files (x86)\\\\SoleSlayer\\\\SoleSlayer"
     os.startfile(ssfilename)
-    time.sleep(10)
+    time.sleep(15)
     pyautogui.typewrite(activation_key)
     time.sleep(4)
     pyautogui.press("tab")
     pyautogui.press("enter")
     time.sleep(4)
     pyautogui.press("enter")
-    time.sleep(7)
+    time.sleep(15)
     pyautogui.hotkey("win","right")
     time.sleep(1)
 
